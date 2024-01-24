@@ -1,6 +1,7 @@
 export const aboutData = {
-    title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    title: "About Me",
+    description1: "My name is Surya. I'm a Cloud and DevOps Engineer based in Bengaluru, Karnataka.",
+    description2: "I have a background in Computer Technology and have completed certifications in Linux, AWS, and DevOps. I recently completed an advanced Cloud Computing course at Besant Technologies, Bengaluru. My experience includes working on cloud infrastructure, and I am eager to explore new opportunities to contribute to challenging projects in the tech industry.",
     image: 2
 }
+//My name is Surya. I'm a Cloud and DevOps Engineer based in Bengaluru, Karnataka.
