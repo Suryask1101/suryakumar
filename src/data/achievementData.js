@@ -3,29 +3,36 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
+            title : 'Linux Administration',
+            details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
+            date : 'Aug , 2023',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktBL7ccIFj4JJhg4lWCwmNnzdqFGmnSjvWw&usqp=CAU'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
+            title : 'AWS Solution Architect',
+            details : 'Trained and certified as an AWS Solutions Architect from Besant Technologies, showcasing expertise in architecting and implementing scalable and robust solutions on the Amazon Web Services platform.',
+            date : 'Nov , 2023',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            image : 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
+            title : 'DevOps Certification',
+            details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment processes.',
+            date : 'Jan, 2024',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            image : 'https://www.turing.com/blog/wp-content/uploads/2022/08/6-Best-DevOps-Practices-to-Know-scaled.jpg'
+        },
+        {
+            id : 4,
+            title : 'Web Development',
+            details : 'Internship Program in Web Development with Raspberry Pi at COITOR IT TECH, where practical skills in web development were gained alongside hands-on experience with Raspberry Pi technology.',
+            date : 'May, 2022',
+            field : 'Automation',
+            image : 'https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png'
         }
-
     ]
 }
 
