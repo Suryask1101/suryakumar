@@ -1,12 +1,17 @@
  export const skillsData = [
-    'HTML',
-    'Fastify',
-    'Blender',
-    'Figma',
-    'Javascript',
-    'CSS',
-    'React',
-    'Django',
+    'Linux',
+    'AWS',
+    'Devops',
+    'Git',
+    'Jenkins',
+    'Docker',
+    'Python',
+    'Maven',
+    'Kubernetes',
+    'Github',
+    'Redhat',
+    
+
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -60,6 +65,7 @@
     Go
     PHP
     Flutter
+    jenkins
     Dart
     Typescript
     Swift
