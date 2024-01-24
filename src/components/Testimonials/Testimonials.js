@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from 'react';
+/*import React, { useContext, useRef } from 'react';
 
 import Slider from 'react-slick';
 
