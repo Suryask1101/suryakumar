@@ -1,4 +1,4 @@
-export const blogData = [
+/*export const blogData = [
     {
         id: 1,
         title: 'SCRAPING BILLBOARD AND IMDB USING PYTHON SELENIUM',
