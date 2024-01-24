@@ -74,7 +74,14 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
-
+import jenkins from '../assets/svg/skills/jenkins.svg'
+import linux from '../assets/svg/skills/linux.svg'
+import devops from '../assets/svg/skills/devops.svg'
+import redhat from '../assets/svg/skills/redhat.svg'
+import maven from '../assets/svg/skills/maven.svg'
+import kubernetes from '../assets/svg/skills/kubernetes.svg'
+import github from '../assets/svg/skills/github.svg'
+import vmware from '../assets/svg/skills/vmware.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +234,22 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'jenkins':
+                return jenkins;
+        case 'linux':
+                return linux;
+        case 'devops':
+            return devops;
+        case 'redhat':
+            return redhat;
+        case 'maven':
+            return maven;
+        case 'kubernetes':
+            return kubernetes;
+        case 'github':
+            return github;
+        case 'vmware':
+            return vmware;
         default:
             break;
     }
