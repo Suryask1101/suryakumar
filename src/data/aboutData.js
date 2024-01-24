@@ -1,7 +1,8 @@
+// Define the aboutData object
 export const aboutData = {
     title: "About Me",
-    description1: "My name is Surya. I'm a Cloud and DevOps Engineer based in Bengaluru, Karnataka.",
-    description2: "I have a background in Computer Technology and have completed certifications in Linux, AWS, and DevOps. I recently completed an advanced Cloud Computing course at Besant Technologies, Bengaluru. My experience includes working on cloud infrastructure, and I am eager to explore new opportunities to contribute to challenging projects in the tech industry.",
+    description1: "Hello, I'm Surya, a passionate Cloud and DevOps Engineer rooted in Bengaluru, Karnataka.",
+    description2: "Professional Background:\nMy journey in the tech realm started with a solid foundation in Computer Technology. To further enhance my skills, I pursued certifications in Linux, AWS, and DevOps. Recently, I successfully completed an advanced Cloud Computing course at Besant Technologies, Bengaluru.\n\nExpertise:\nI specialize in crafting robust cloud infrastructures, leveraging my skills in Linux, AWS, and DevOps methodologies. My goal is to contribute my expertise to dynamic and challenging projects within the tech industry.\n\nContinuous Learning:\nIn the ever-evolving landscape of technology, I am committed to continuous learning. Staying updated with the latest advancements is not just a professional obligation but a personal drive that fuels my enthusiasm for innovation.\n\nSeeking Opportunities:\nEager to explore new horizons, I am actively seeking opportunities to apply my skills and contribute to projects that push the boundaries of what technology can achieve.",
     image: 2
-}
-//My name is Surya. I'm a Cloud and DevOps Engineer based in Bengaluru, Karnataka.
+};
+
