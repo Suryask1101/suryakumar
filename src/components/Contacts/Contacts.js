@@ -192,7 +192,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='Type your mailid...'
+                                    placeholder='Type your mail id...'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
