@@ -82,6 +82,10 @@ import maven from '../assets/svg/skills/maven.svg'
 import kubernetes from '../assets/svg/skills/kubernetes.svg'
 import github from '../assets/svg/skills/github.svg'
 import vmware from '../assets/svg/skills/vmware.svg'
+import ansible from '../assets/svg/skills/ansible.svg'
+import terraform from '../assets/svg/skills/terraform.svg'
+import html5 from '../assets/svg/skills/html5.svg'
+import css3 from '../assets/svg/skills/css3.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -250,6 +254,15 @@ export const skillsImage = (skill) => {
             return github;
         case 'vmware':
             return vmware;
+        case 'ansible':
+            return ansible;
+        case 'terraform':
+            return terraform;
+        case 'html5':
+            return html5;
+        case 'css3':
+            return css3;
+        
         default:
             break;
     }
