@@ -1,6 +1,6 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
+import one from '../assets/svg/projects/host-record.svg'
+import two from '../assets/svg/projects/surveillance-defense.svg'
+import three from '../assets/svg/projects/touch-click.svg'
 
 
 
