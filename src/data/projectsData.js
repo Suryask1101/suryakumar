@@ -19,8 +19,8 @@ export const projectsData = [
         projectName: 'Weapon Detection Through CCTV',
         projectDesc: 'The aim of the project is to detect weapons using a surveillance camera in real-time.',
         tags: ['PyQt5', 'OpenCV', 'Numpy'],
-        code: '',
-        demo: '',
+        code: 'https://github.com/Suryask1101/weapon-detection-camera',
+        demo: 'https://github.com/Suryask1101/weapon-detection-camera',
         image: two
     },
     {
