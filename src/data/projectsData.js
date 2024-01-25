@@ -10,8 +10,8 @@ export const projectsData = [
         projectName: 'Automated Web Application',
         projectDesc: 'Automated Jenkins deployment for a web app on Tomcat, reducing deployment time to 15 minutes, ensuring a consistent, error-free process.',
         tags: ['Jenkins', 'Tomcat Server'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: '',
+        demo: '',
         image: one
     },
     {
@@ -19,17 +19,17 @@ export const projectsData = [
         projectName: 'Weapon Detection Through CCTV',
         projectDesc: 'The aim of the project is to detect weapons using a surveillance camera in real-time.',
         tags: ['PyQt5', 'OpenCV', 'Numpy'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        code: '',
+        demo: '',
         image: two
     },
     {
         id: 3,
         projectName: 'Audio Book Using Python ',
         projectDesc: 'Designed and implemented a Python-based audio book application, combining text-to-speech synthesis for an engaging and accessible reading experience. ',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        tags: ['Django',],
+        code: '',
+        demo: '',
         image: three
     },
  
