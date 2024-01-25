@@ -10,6 +10,12 @@
     'Kubernetes',
     'Github',
     'Redhat',
+    'Ansible',
+    'Terraform',
+    'HTML5',
+    'CSS3',
+    
+
     
 
 ]
