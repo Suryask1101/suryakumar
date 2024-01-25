@@ -20,7 +20,7 @@ export const achievementData = {
         {
             id : 3,
             title : 'DevOps Certification',
-            details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment processes.',
+            details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment.',
             date : 'Jan, 2024',
             field : 'Automation',
             image : 'https://www.turing.com/blog/wp-content/uploads/2022/08/6-Best-DevOps-Practices-to-Know-scaled.jpg'
