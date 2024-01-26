@@ -27,9 +27,9 @@ export const projectsData = [
         id: 3,
         projectName: 'Audio Book Using Python ',
         projectDesc: 'Designed and implemented a Python-based audio book application, combining text-to-speech synthesis for an engaging and accessible reading experience. ',
-        tags: ['Django',],
-        code: '',
-        demo: '',
+        tags: ['PyPDF2', 'pyttsx3','textblob'],
+        code: 'https://github.com/Suryask1101/Audio-book',
+        demo: 'https://github.com/Suryask1101/Audio-book',
         image: three
     },
  
