@@ -11,8 +11,8 @@ export const achievementData = {
         },
         {
             id : 2,
-            title : 'AWS Solution Architect',
-            details : 'Trained and certified as an AWS Solutions Architect from Besant Technologies, showcasing expertise in architecting and implementing scalable and robust solutions on the Amazon Web Services platform.',
+            title : 'AWS Architect',
+            details : 'Trained and certified as an AWS Architect from Besant Technologies, showcasing expertise in architecting and implementing scalable and robust solutions on the Amazon Web Services platform.',
             date : 'Nov , 2023',
             field : 'Automation',
             image : 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png'
