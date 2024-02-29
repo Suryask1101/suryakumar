@@ -10,8 +10,8 @@ export const projectsData = [
         projectName: 'Automated Web Application',
         projectDesc: 'Automated Jenkins deployment for a web app on Tomcat, reducing deployment time to 15 minutes, ensuring a consistent, error-free process.',
         tags: ['Jenkins', 'Tomcat Server'],
-        code: '',
-        demo: '',
+        code: 'https://github.com/Suryask1101/Tomcat-server',
+        demo: 'https://github.com/Suryask1101/Tomcat-server',
         image: one
     },
     {
