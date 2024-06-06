@@ -19,7 +19,6 @@ function Main() {
             <Experience />
             <Projects />
             <Achievement />
-            <Blog />
             <Services />
             <Contacts />
             <Footer />
