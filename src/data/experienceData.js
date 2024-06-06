@@ -1,30 +1,30 @@
 export const experienceData = [
     {
         id: 1,
+        company: 'Easy Deploy',
+        jobtitle: 'Cloud Associate Intern',
+        startYear: '2024>Apr',
+        endYear: 'Jun<2024'
+    },
+    {
+       id: 2,
         company: 'Besant Technologies',
-        jobtitle: 'DevOps Engineer',
+        jobtitle: 'DevOps Training',
         startYear: '2023>Nov',
         endYear: 'Jan<2024'
     },
     {
-        id: 2,
+         id: 3,
         company: 'Besant Technologies',
-        jobtitle: 'AWS Engineer',
+        jobtitle: 'AWS Training',
         startYear: '2023>Aug',
         endYear: 'Nov'
     },
     {
-        id: 3,
+        id: 4,
         company: 'Besant Technologies',
-        jobtitle: 'Linux Administrator',
+        jobtitle: 'Linux Training',
         startYear: '2023>Jun',
         endYear: 'Aug'
-    },
-    {
-        id: 4,
-        company: 'Coitor IT Tech',
-        jobtitle: 'Web development',
-        startYear: '2022>Jun',
-        endYear: 'Jul'
     },
 ]
