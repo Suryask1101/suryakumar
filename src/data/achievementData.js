@@ -3,7 +3,7 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Linux Administration',
+            title : 'Linux Training',
             details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
             date : 'Aug , 2023',
             field : 'Automation',
@@ -11,7 +11,7 @@ export const achievementData = {
         },
         {
             id : 2,
-            title : 'AWS Architect',
+            title : 'AWS Training',
             details : 'Trained and certified as an AWS Architect from Besant Technologies, showcasing expertise in architecting and implementing scalable and robust solutions on the Amazon Web Services platform.',
             date : 'Nov , 2023',
             field : 'Automation',
@@ -19,7 +19,7 @@ export const achievementData = {
         },
         {
             id : 3,
-            title : 'DevOps Certification',
+            title : 'DevOps Training',
             details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment.',
             date : 'Jan, 2024',
             field : 'Automation',
