@@ -1,5 +1,5 @@
 import resume from '../assets/resume.pdf'
-import image from '../assets/png/IMG-20241002-WA0005~3'
+import image from '../assets/png/IMG-20241002-WA0005~3.jpg'
 export const headerData = {
     name: 'Surya kumar',
     title: "AWS DevOps Engineer",
