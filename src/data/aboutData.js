@@ -1,8 +1,7 @@
 export const aboutData = {
     title: "About Me",
-    description1: "My name is Surya, and I am a Cloud and DevOps Engineer. I recently completed a cloud associate internship at Easy Deploy, Coimbatore, where I gained valuable hands-on experience in cloud computing and DevOps practices.",
-    description2: "With a background in Computer Technology and certifications in Linux, AWS, and DevOps, I am well-equipped with the necessary skills to excel in cloud and DevOps roles. Additionally, I have completed an advanced Cloud Computing course at Besant Technologies, Bengaluru, further enhancing my expertise in cloud technologies.",
-    description3: "During my internship at Easy Deploy, I actively contributed to cloud infrastructure projects and honed my skills in various aspects of cloud computing and DevOps. I am now seeking new opportunities to leverage my experience and skills to tackle challenging projects in the tech industry.",
+    description1: "My name is Surya, I'm a DevOps Engineer based in Bengaluru, India.",
+    description2: "Currently, I am working as a DevOps Engineer at IHX Private Limited. where I focus on optimizing cloud infrastructures and implementing effective DevOps practices. In my free time, I’m dedicated to enhancing my skills in cloud technologies and diving into the latest trends in the tech industry. I thrive on learning and exploring new areas, always looking for ways to grow and innovate.",
     image: 2
 }
 //My name is Surya. I'm a Cloud and DevOps Engineer based in Bengaluru, Karnataka.
