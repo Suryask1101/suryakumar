@@ -4,7 +4,7 @@ export const achievementData = {
          {
             id : 1,
             title : 'Certified Associate Cloud Engineer – GCP',
-            details : 'Certified as an Associate Cloud Engineer from Google Cloud Platform (GCP), showcasing expertise in deploying, monitoring, and maintaining cloud-based solutions, and demonstrating proficiency in leveraging GCP services to meet diverse business and technical requirements.',
+            details : 'Certified as an Associate Cloud Engineer from Google Cloud Platform (GCP), showcasing expertise in deploying, monitoring, and maintaining cloud solutions and leveraging GCP services to meet business needs.',
             date : 'Dec , 2024',
             field : 'Cloud',
             image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAw2b8wxSq2-meEk_-3xuNnfqRA6X94A6Aeg&s'
