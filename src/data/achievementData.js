@@ -3,10 +3,10 @@ export const achievementData = {
     achievements : [
          {
             id : 1,
-            title : 'Linux Training',
-            details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
-            date : 'Aug , 2023',
-            field : 'Automation',
+            title : 'Certified Associate Cloud Engineer – GCP',
+            details : 'Certified as an Associate Cloud Engineer from Google Cloud Platform (GCP), showcasing expertise in deploying, monitoring, and maintaining cloud-based solutions, and demonstrating proficiency in leveraging GCP services to meet diverse business and technical requirements.',
+            date : 'Dec , 2024',
+            field : 'Cloud',
             image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAw2b8wxSq2-meEk_-3xuNnfqRA6X94A6Aeg&s'
         },
         {
@@ -14,7 +14,7 @@ export const achievementData = {
             title : 'Linux Training',
             details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
             date : 'Aug , 2023',
-            field : 'Automation',
+            field : 'OS',
             image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktBL7ccIFj4JJhg4lWCwmNnzdqFGmnSjvWw&usqp=CAU'
         },
         {
@@ -22,7 +22,7 @@ export const achievementData = {
             title : 'AWS Training',
             details : 'Trained and certified as an AWS Architect from Besant Technologies, showcasing expertise in architecting and implementing scalable and robust solutions on the Amazon Web Services platform.',
             date : 'Nov , 2023',
-            field : 'Automation',
+            field : 'Cloud',
             image : 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png'
         },
         {
@@ -31,7 +31,7 @@ export const achievementData = {
             details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment.',
             date : 'Jan, 2024',
             field : 'Automation',
-            image : 'https://www.turing.com/blog/wp-content/uploads/2022/08/6-Best-DevOps-Practices-to-Know-scaled.jpg'
+            image : 'https://cdn-icons-png.flaticon.com/512/5396/5396960.png'
         },
         {
             id : 4,
