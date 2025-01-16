@@ -11,7 +11,7 @@ export const experienceData = [
         company: 'IHX Private Limited',
         jobtitle: 'DevOps Intern',
         startYear: '2024>Jul',
-        endYear: 'Oct>2024'
+        endYear: 'Oct,2024'
     },
     {
         id: 3,
