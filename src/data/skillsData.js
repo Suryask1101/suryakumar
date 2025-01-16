@@ -12,6 +12,7 @@
     'Redhat',
     'Ansible',
     'Terraform',
+    'GCP',
     
 
     
