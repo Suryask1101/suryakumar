@@ -31,7 +31,7 @@ export const achievementData = {
             details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment.',
             date : 'Jan, 2024',
             field : 'Automation',
-            image : 'https://cdn-icons-png.flaticon.com/512/5396/5396960.png'
+            image : 'https://media.istockphoto.com/id/1136691184/vector/devops-icon-vector.jpg?s=612x612&w=0&k=20&c=b5gXUq7frnYfTJWmBKwELAe_bB_ZY40Wp9TlwOWlU_U='
         },
         {
             id : 5,
