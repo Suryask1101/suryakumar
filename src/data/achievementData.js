@@ -1,6 +1,14 @@
 export const achievementData = {
     bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
     achievements : [
+         {
+            id : 1,
+            title : 'Linux Training',
+            details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
+            date : 'Aug , 2023',
+            field : 'Automation',
+            image : 'https://images.credly.com/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/linkedin_thumb_image.png'
+        },
         {
             id : 1,
             title : 'Linux Training',
