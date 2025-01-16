@@ -10,7 +10,7 @@ export const achievementData = {
             image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAw2b8wxSq2-meEk_-3xuNnfqRA6X94A6Aeg&s'
         },
         {
-            id : 1,
+            id : 2,
             title : 'Linux Training',
             details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
             date : 'Aug , 2023',
@@ -18,7 +18,7 @@ export const achievementData = {
             image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktBL7ccIFj4JJhg4lWCwmNnzdqFGmnSjvWw&usqp=CAU'
         },
         {
-            id : 2,
+            id : 3,
             title : 'AWS Training',
             details : 'Trained and certified as an AWS Architect from Besant Technologies, showcasing expertise in architecting and implementing scalable and robust solutions on the Amazon Web Services platform.',
             date : 'Nov , 2023',
@@ -26,7 +26,7 @@ export const achievementData = {
             image : 'https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png'
         },
         {
-            id : 3,
+            id : 4,
             title : 'DevOps Training',
             details : 'Trained and certified in DevOps from Besant Technologies, demonstrating proficiency in implementing and optimizing continuous integration, continuous delivery, and automation practices to enhance software development and deployment.',
             date : 'Jan, 2024',
@@ -34,7 +34,7 @@ export const achievementData = {
             image : 'https://cdn-icons-png.flaticon.com/512/5396/5396960.png'
         },
         {
-            id : 4,
+            id : 5,
             title : 'Web Development',
             details : 'Internship Program in Web Development with Raspberry Pi at COITOR IT TECH, where practical skills in web development were gained alongside hands-on experience with Raspberry Pi technology.',
             date : 'May, 2022',
