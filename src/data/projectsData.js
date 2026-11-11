@@ -26,6 +26,15 @@ export const projectsData = [
         image: two
     },
     {
+        id: 6,
+        projectName: 'AI Self-Healing Infrastructure',
+        projectDesc: 'Built an AI-powered system to monitor logs, detect failures, identify root causes, and automate infrastructure recovery.',
+        tags: ['Python', 'Flask', 'Docker', 'Elasticsearch', 'Filebeat', 'Ollama', 'Kibana'],
+        code: 'https://github.com/Suryask1101/ai-self-healing-infrastructure',
+        demo: 'https://medium.com/@suryask4530/building-an-ai-assisted-self-healing-infrastructure-monitoring-system-with-docker-elk-and-ollama-fd19211618e2',
+        image: six
+    },
+    {
         id: 3,
         projectName: 'Automated Web Application',
         projectDesc: 'Automated Jenkins deployment for a web app on Tomcat, reducing deployment time to 15 minutes, ensuring a consistent, error-free process.',
@@ -51,14 +60,5 @@ export const projectsData = [
         code: 'https://github.com/Suryask1101/Audio-book',
         demo: 'https://github.com/Suryask1101/Audio-book',
         image: five
-    },
-    {
-        id: 6,
-        projectName: 'AI Self-Healing Infrastructure',
-        projectDesc: 'Built an AI-powered system to monitor logs, detect failures, identify root causes, and automate infrastructure recovery.',
-        tags: ['Python', 'Flask', 'Docker', 'Elasticsearch', 'Filebeat', 'Ollama', 'Kibana'],
-        code: 'https://github.com/Suryask1101/ai-self-healing-infrastructure',
-        demo: 'https://medium.com/@suryask4530/building-an-ai-assisted-self-healing-infrastructure-monitoring-system-with-docker-elk-and-ollama-fd19211618e2',
-        image: six
     }
 ]
