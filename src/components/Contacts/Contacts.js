@@ -1,4 +1,3 @@
-
 import React, { useContext, useState } from 'react';
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
@@ -141,46 +140,45 @@ function Contacts() {
                     message: message,
                 };
 
-                // First save the message to Google Sheets through SheetDB
+                // 1. Send Gmail notification independently
+                fetch(
+                    'https://script.google.com/macros/s/AKfycbxYc0J5BHUpHOIWU9CWMEduoZI0VxN2tVKiszOC_SQjerBtDlK3qc6JEI2fBsmBaT-sNw/exec',
+                    {
+                        method: 'POST',
+                        mode: 'no-cors',
+                        body: new URLSearchParams({
+                            name: name,
+                            email: email,
+                            message: message,
+                        }),
+                    }
+                ).catch((error) => {
+                    console.error(
+                        'Gmail notification request failed:',
+                        error
+                    );
+                });
+
+                // 2. Save visitor details to SheetDB independently
                 axios.post(contactsData.sheetAPI, responseData)
-                    .then((res) => {
-
-                        // Then trigger Gmail notification through Apps Script
-                        fetch(
-                            'https://script.google.com/macros/s/AKfycbxYc0J5BHUpHOIWU9CWMEduoZI0VxN2tVKiszOC_SQjerBtDlK3qc6JEI2fBsmBaT-sNw/exec',
-                            {
-                                method: 'POST',
-                                mode: 'no-cors',
-                                body: new URLSearchParams({
-                                    name: name,
-                                    email: email,
-                                    message: message,
-                                }),
-                            }
-                        ).catch((error) => {
-                            console.error(
-                                'Gmail notification request failed:',
-                                error
-                            );
-                        });
-
-                        console.log('Contact form submitted successfully');
-
-                        setSuccess(true);
-                        setErrMsg('');
-
-                        setName('');
-                        setEmail('');
-                        setMessage('');
-                        setOpen(false);
+                    .then(() => {
+                        console.log('Google Sheet submission successful');
                     })
                     .catch((error) => {
-                        console.error('SheetDB submission error:', error);
-                        setErrMsg(
-                            'Unable to submit your message. Please try again.'
+                        console.error(
+                            'Google Sheet submission failed:',
+                            error
                         );
-                        setOpen(true);
                     });
+
+                // 3. Reset the form
+                setSuccess(true);
+                setErrMsg('');
+
+                setName('');
+                setEmail('');
+                setMessage('');
+                setOpen(false);
 
             } else {
                 setErrMsg('Invalid email');
