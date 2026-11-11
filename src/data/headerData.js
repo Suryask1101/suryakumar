@@ -3,7 +3,7 @@ import image from '../assets/png/profile.png'
 export const headerData = {
     name: 'Surya kumar',
     title: "DevOps Engineer",
-    desciption:'I am now eager to leverage my experience and skills to tackle challenging tech projects.',
+    desciption:'Passionate about building reliable cloud infrastructure and automating modern software delivery.',
     Img: image,
     resumePdf: resume
 }
