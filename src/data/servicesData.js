@@ -1,43 +1,59 @@
-import { FaLinux, FaAws, FaCog, FaCode, FaDocker, FaCubes, FaTools } from "react-icons/fa";
+
+import { FaAws, FaCog, FaTools } from "react-icons/fa";
+import {
+    SiGooglecloud,
+    SiLinux,
+    SiDocker,
+    SiKubernetes,
+    SiGit,
+    SiJenkins,
+    SiGrafana
+} from "react-icons/si";
 
 export const servicesData = [
     {
-        id: 2,
+        id: 1,
         title: 'AWS',
         icon: <FaAws />
     },
     {
-        id: 3,
-        title: 'Automation',
-        icon: <FaCog />
+        id: 2,
+        title: 'Google Cloud Platform',
+        icon: <SiGooglecloud />
     },
-    // ... (other services)
+    {
+        id: 3,
+        title: 'Linux Administration',
+        icon: <SiLinux />
+    },
+    {
+        id: 4,
+        title: 'Docker',
+        icon: <SiDocker />
+    },
+    {
+        id: 5,
+        title: 'Kubernetes',
+        icon: <SiKubernetes />
+    },
+    {
+        id: 6,
+        title: 'CI/CD Pipelines',
+        icon: <SiJenkins />
+    },
     {
         id: 7,
-        title: 'Linux Administration',
-        icon: <FaLinux />
+        title: 'Infrastructure Automation',
+        icon: <FaCog />
+    },
+    {
+        id: 8,
+        title: 'Version Control',
+        icon: <SiGit />
     },
     {
         id: 9,
-        title: 'Version Control',
-        icon: <FaCode />
-    },
-    // ... (other services)
-    {
-        id: 11,
-        title: 'Docker',
-        icon: <FaDocker />
-    },
-    // ... (other services)
-    {
-        id: 13,
-        title: 'Kubernetes',
-        icon: <FaCubes />
-    },
-    {
-        id: 14,
-        title: 'CICD',
-        icon: <FaTools />
-    },
-    // ... (other services)
+        title: 'Monitoring & Logging',
+        icon: <SiGrafana />
+    }
 ]
