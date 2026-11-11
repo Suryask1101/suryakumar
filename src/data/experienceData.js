@@ -20,11 +20,4 @@ export const experienceData = [
         startYear: '2024>Apr',
         endYear: 'Jun<2024'
     },
-    {
-        id: 4,
-        company: 'Besant Technologies',
-        jobtitle: 'Cloud Computing Training',
-        startYear: '2023>Jun',
-        endYear: 'Jan<2024'
-    }
 ]
