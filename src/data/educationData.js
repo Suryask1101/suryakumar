@@ -4,7 +4,7 @@ export const educationData = [
         institution: 'JAIN University, Banglore',
         course: 'MCA - Computer Science with IT',
         startYear: '2024',
-        endYear: 'present'
+        endYear: '2026'
     },
      {
         id: 2,
