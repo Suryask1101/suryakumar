@@ -1,10 +1,10 @@
-import one from '../assets/svg/projects/host-record.svg'
-import two from '../assets/svg/projects/surveillance-defense.svg'
-import three from '../assets/svg/projects/touch-click.svg'
-import eleven from '../assets/svg/projects/eleven.svg'
-import ten from '../assets/svg/projects/ten.svg'
 
-
+import one from '../assets/svg/projects/01-aws-ecs-lambda-scheduling.png'
+import two from '../assets/svg/projects/02-react-github-actions-cicd.png'
+import three from '../assets/svg/projects/03-automated-web-application.png'
+import four from '../assets/svg/projects/04-cctv-weapon-detection.png'
+import five from '../assets/svg/projects/05-python-audiobook.png'
+import six from '../assets/svg/projects/06-ai-self-healing-infrastructure.png'
 
 export const projectsData = [
     {
@@ -14,7 +14,7 @@ export const projectsData = [
         tags: ['ECS', 'Lambda'],
         code: 'https://github.com/Suryask1101/ECS-start-stop-using-lambda',
         demo: 'https://medium.com/@suryask4530/how-to-schedule-ecs-stop-and-start-automatically-using-lambda-a3fa70e6e19f',
-        image: eleven
+        image: one
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ export const projectsData = [
         tags: ['CI/CD', 'Github-actions'],
         code: 'https://github.com/Suryask1101/CICD-Github-to-EC2',
         demo: 'https://medium.com/@suryask4530/setup-ci-cd-pipeline-using-github-actions-for-reactjs-application-hosted-on-aws-ec2-8aefd114fb21',
-        image: ten
+        image: two
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ export const projectsData = [
         tags: ['Jenkins', 'Tomcat Server'],
         code: 'https://github.com/Suryask1101/Tomcat-server',
         demo: 'https://github.com/Suryask1101/Tomcat-server',
-        image: one
+        image: three
     },
     {
         id: 4,
@@ -41,32 +41,24 @@ export const projectsData = [
         tags: ['PyQt5', 'OpenCV', 'Numpy'],
         code: 'https://github.com/Suryask1101/weapon-detection-camera',
         demo: 'https://github.com/Suryask1101/weapon-detection-camera',
-        image: two
+        image: four
     },
     {
         id: 5,
-        projectName: 'Audio Book Using Python ',
-        projectDesc: 'Designed and implemented a Python-based audio book application, combining text-to-speech synthesis for an engaging and accessible reading experience. ',
-        tags: ['PyPDF2', 'pyttsx3','textblob'],
+        projectName: 'Audio Book Using Python',
+        projectDesc: 'Designed and implemented a Python-based audio book application, combining text-to-speech synthesis for an engaging and accessible reading experience.',
+        tags: ['PyPDF2', 'pyttsx3', 'textblob'],
         code: 'https://github.com/Suryask1101/Audio-book',
         demo: 'https://github.com/Suryask1101/Audio-book',
-        image: three
+        image: five
     },
- 
+    {
+        id: 6,
+        projectName: 'AI-Driven Self-Healing Infrastructure Monitoring and Failure Analysis System',
+        projectDesc: 'Developed an AI-driven self-healing infrastructure monitoring system using Python, Flask, Docker, Elasticsearch, Filebeat, Ollama (Llama 3.2), and Kibana. Automates log collection, analyzes infrastructure failures, identifies root causes, and supports automated recovery and verification.',
+        tags: ['Python', 'Flask', 'Docker', 'Elasticsearch', 'Filebeat', 'Ollama', 'Kibana'],
+        code: 'https://github.com/Suryask1101/ai-self-healing-infrastructure',
+        demo: 'https://medium.com/@suryask4530/building-an-ai-assisted-self-healing-infrastructure-monitoring-system-with-docker-elk-and-ollama-fd19211618e2',
+        image: six
+    }
 ]
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
