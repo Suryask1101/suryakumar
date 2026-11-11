@@ -1,3 +1,4 @@
+
 import React, { useContext, useState } from 'react';
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
@@ -140,16 +141,47 @@ function Contacts() {
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
+                // First save the message to Google Sheets through SheetDB
+                axios.post(contactsData.sheetAPI, responseData)
+                    .then((res) => {
 
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
-                });
+                        // Then trigger Gmail notification through Apps Script
+                        fetch(
+                            'https://script.google.com/macros/s/AKfycbxYc0J5BHUpHOIWU9CWMEduoZI0VxN2tVKiszOC_SQjerBtDlK3qc6JEI2fBsmBaT-sNw/exec',
+                            {
+                                method: 'POST',
+                                mode: 'no-cors',
+                                body: new URLSearchParams({
+                                    name: name,
+                                    email: email,
+                                    message: message,
+                                }),
+                            }
+                        ).catch((error) => {
+                            console.error(
+                                'Gmail notification request failed:',
+                                error
+                            );
+                        });
+
+                        console.log('Contact form submitted successfully');
+
+                        setSuccess(true);
+                        setErrMsg('');
+
+                        setName('');
+                        setEmail('');
+                        setMessage('');
+                        setOpen(false);
+                    })
+                    .catch((error) => {
+                        console.error('SheetDB submission error:', error);
+                        setErrMsg(
+                            'Unable to submit your message. Please try again.'
+                        );
+                        setOpen(true);
+                    });
+
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
@@ -184,6 +216,7 @@ function Contacts() {
                                     className={`form-input ${classes.input}`}
                                 />
                             </div>
+
                             <div className='input-container'>
                                 <label
                                     htmlFor='Email'
@@ -200,6 +233,7 @@ function Contacts() {
                                     className={`form-input ${classes.input}`}
                                 />
                             </div>
+
                             <div className='input-container'>
                                 <label
                                     htmlFor='Message'
@@ -248,6 +282,7 @@ function Contacts() {
                                 </button>
                             </div>
                         </form>
+
                         <Snackbar
                             anchorOrigin={{
                                 vertical: 'top',
@@ -292,6 +327,7 @@ function Contacts() {
                                 {contactsData.email}
                             </p>
                         </a>
+
                         <a
                             href={`tel:${contactsData.phone}`}
                             className='personal-details'
@@ -303,6 +339,7 @@ function Contacts() {
                                 {contactsData.phone}
                             </p>
                         </a>
+
                         <div className='personal-details'>
                             <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
@@ -323,6 +360,7 @@ function Contacts() {
                                     <FaTwitter aria-label='Twitter' />
                                 </a>
                             )}
+
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -333,6 +371,7 @@ function Contacts() {
                                     <FaGithub aria-label='GitHub' />
                                 </a>
                             )}
+
                             {socialsData.linkedIn && (
                                 <a
                                     href={socialsData.linkedIn}
@@ -343,6 +382,7 @@ function Contacts() {
                                     <FaLinkedinIn aria-label='LinkedIn' />
                                 </a>
                             )}
+
                             {socialsData.instagram && (
                                 <a
                                     href={socialsData.instagram}
@@ -353,6 +393,7 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}
+
                             {socialsData.medium && (
                                 <a
                                     href={socialsData.medium}
@@ -363,6 +404,7 @@ function Contacts() {
                                     <FaMediumM aria-label='Medium' />
                                 </a>
                             )}
+
                             {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
@@ -373,6 +415,7 @@ function Contacts() {
                                     <FaBloggerB aria-label='Blogger' />
                                 </a>
                             )}
+
                             {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}
@@ -383,6 +426,7 @@ function Contacts() {
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
                             )}
+
                             {socialsData.reddit && (
                                 <a
                                     href={socialsData.reddit}
@@ -393,6 +437,7 @@ function Contacts() {
                                     <FaRedditAlien aria-label='Reddit' />
                                 </a>
                             )}
+
                             {socialsData.stackOverflow && (
                                 <a
                                     href={socialsData.stackOverflow}
@@ -403,6 +448,7 @@ function Contacts() {
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
                             )}
+
                             {socialsData.codepen && (
                                 <a
                                     href={socialsData.codepen}
@@ -413,6 +459,7 @@ function Contacts() {
                                     <FaCodepen aria-label='CodePen' />
                                 </a>
                             )}
+
                             {socialsData.gitlab && (
                                 <a
                                     href={socialsData.gitlab}
@@ -427,6 +474,7 @@ function Contacts() {
                     </div>
                 </div>
             </div>
+
             <img
                 src={theme.contactsimg}
                 alt='contacts'
