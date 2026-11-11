@@ -1,7 +1,18 @@
+import gcpArchitect from '../assets/svg/achievements/gcp_professional_cloud_architect_badge.png'
+import linuxImage from '../assets/svg/achievements/linux_training_icon.png'
+
 export const achievementData = {
     bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
     achievements : [
-         {
+        {
+            id : 6,
+            title : 'Google Cloud Professional Cloud Architect',
+            details : 'Certified as a Professional Cloud Architect from Google Cloud Platform (GCP), demonstrating expertise in designing, building, and managing secure, scalable, and highly available cloud solutions on GCP.',
+            date : 'Nov, 2026',
+            field : 'Cloud',
+            image : gcpArchitect
+        },
+        {
             id : 1,
             title : 'Certified Associate Cloud Engineer – GCP',
             details : 'Certified as an Associate Cloud Engineer from Google Cloud Platform (GCP), showcasing expertise in deploying, monitoring, and maintaining cloud solutions and leveraging GCP services to meet business needs.',
@@ -15,7 +26,7 @@ export const achievementData = {
             details : 'Trained and certified in Linux administration from Besant Technologies, demonstrating expertise and proficiency in effectively managing and optimizing Linux-based systems to meet diverse computing needs.',
             date : 'Aug , 2023',
             field : 'OS',
-            image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQktBL7ccIFj4JJhg4lWCwmNnzdqFGmnSjvWw&usqp=CAU'
+            image : linuxImage
         },
         {
             id : 3,
@@ -43,16 +54,3 @@ export const achievementData = {
         }
     ]
 }
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below.
-
-/*
-
-export const achievementData = {
-    bio : "",
-    achievements : []
-}
-
-*/
