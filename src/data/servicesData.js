@@ -1,4 +1,4 @@
-import { FaAws, FaCog, FaTools } from "react-icons/fa";
+import { FaAws, FaCog } from "react-icons/fa";
 import {
     SiGooglecloud,
     SiLinux,
