@@ -1,4 +1,4 @@
-import resume from '../assets/resume.pdf'
+import resume from '../assets/Surya_DevOps-Engineer_2+years.pdf'
 import image from '../assets/png/profile.png'
 export const headerData = {
     name: 'Surya kumar',
