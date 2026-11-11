@@ -54,8 +54,8 @@ export const projectsData = [
     },
     {
         id: 6,
-        projectName: 'AI-Driven Self-Healing Infrastructure Monitoring and Failure Analysis System',
-        projectDesc: 'Developed an AI-driven self-healing infrastructure monitoring system using Python, Flask, Docker, Elasticsearch, Filebeat, Ollama (Llama 3.2), and Kibana. Automates log collection, analyzes infrastructure failures, identifies root causes, and supports automated recovery and verification.',
+        projectName: 'AI Self-Healing Infrastructure',
+        projectDesc: 'Built an AI-powered system to monitor logs, detect failures, identify root causes, and automate infrastructure recovery.',
         tags: ['Python', 'Flask', 'Docker', 'Elasticsearch', 'Filebeat', 'Ollama', 'Kibana'],
         code: 'https://github.com/Suryask1101/ai-self-healing-infrastructure',
         demo: 'https://medium.com/@suryask4530/building-an-ai-assisted-self-healing-infrastructure-monitoring-system-with-docker-elk-and-ollama-fd19211618e2',
