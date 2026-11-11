@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Surya_DevOps-Engineer_2+years'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
